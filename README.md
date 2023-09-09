@@ -1,5 +1,6 @@
 # Nahid-Dictionary
 
+![My Image](pngaaa.com-1524756.png)
 Here's is an English to English dictionary inspired by Mrs.Pourmoazami.
 Bachelor's English translation senior student at IIAU.
 Written in Qt/C++
