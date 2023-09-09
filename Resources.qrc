@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/Files">
+        <file>dictionary.json</file>
+        <file>dictionaryFa.json</file>
+        <file>pngaaa.com-1524756.ico</file>
+        <file>pngaaa.com-1524756.png</file>
+        <file>phonetics.json</file>
+        <file>Icons/searchVista.png</file>
+        <file>Icons/search.png</file>
+        <file>ldoe_american.sqlite</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>
