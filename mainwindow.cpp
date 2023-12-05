@@ -17,7 +17,7 @@ MainWindow::MainWindow(QWidget *parent)
    this->setWindowTitle("N² Dictionary V-1.8");
    // UI/UX
    ui->pbSearch->setIcon(QIcon(":/Files/Icons/search.png"));
-   ui->pbSearchFarsi->setIcon(QIcon(":/Files/Icons/search.png"));
+   // ui->pbSearchFarsi->setIcon(QIcon(":/Files/Icons/search.png"));
 //   ui->pbSearch->setIconSize(QSize(65, 65));
 //   this->setStyleSheet("background:url(C:/Users/Naser Rezayi/Downloads/17275258.jpg)");
 //   ui->tabWidget->setStyleSheet("opacity : 0.5;");
@@ -42,10 +42,10 @@ MainWindow::MainWindow(QWidget *parent)
    ui->leEnglish->setCompleter(completer);
 
    file.close();
-   ui->horizontalSliderFarsi->setValue(12);
-   ui->horizontalSliderFarsi->setMinimum(4);
-   ui->horizontalSliderFarsi->setMaximum(26);
-   ui->textBrowserFarsi->setFontPointSize(_fontSize);
+   // ui->horizontalSliderFarsi->setValue(12);
+   // ui->horizontalSliderFarsi->setMinimum(4);
+   // ui->horizontalSliderFarsi->setMaximum(26);
+   // ui->textBrowserFarsi->setFontPointSize(_fontSize);
    QStringList keysF;
    QFile       fileF(":/Files/dictionaryFa.json");
 
@@ -58,7 +58,7 @@ MainWindow::MainWindow(QWidget *parent)
    QCompleter *completerF = new QCompleter(keys, this);
 
    completerF->setCaseSensitivity(Qt::CaseInsensitive);
-   ui->leFarsi->setCompleter(completerF);
+   // ui->leFarsi->setCompleter(completerF);
    fileF.close();
 }
 
@@ -124,7 +124,7 @@ void MainWindow::searchF()
    QJsonDocument docF = QJsonDocument::fromJson(fileF.readAll());
    QJsonObject   objF = docF.object();
 
-   _wordF = ui->leFarsi->text().toLower();
+   // _wordF = ui->leFarsi->text().toLower();
    qDebug() << (objF[_wordF]);
 
 ////   _ansF = objF.value(_wordF).toString().toUtf8();
@@ -160,10 +160,10 @@ void MainWindow::resize(int value)
 ///
 void MainWindow::on_pbSearch_clicked()
 {
-   if (ui->leEnglish->text().toLower() == "exit")
-   {
-      exit(1);
-   }
+   // if (ui->leEnglish->text().toLower() == "exit")
+   // {
+   //    exit(1);
+   // }
    search();
 }
 
@@ -194,11 +194,11 @@ void MainWindow::on_pbPronounce_clicked()
 ///
 void MainWindow::on_pbSearchFarsi_clicked()
 {
-   if (ui->leFarsi->text().toLower() == "خروج")
-   {
-      exit(1);
-   }
-   searchF();
+   // if (ui->leFarsi->text().toLower() == "خروج")
+   // {
+   //    exit(1);
+   // }
+   // searchF();
 }
 
 
