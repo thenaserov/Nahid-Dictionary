@@ -10,3 +10,9 @@ The only return value in the only text box of the program is the definition,
 read from the "dictionary.json".
 Let me know if the project needs modifications or updates
 email: naser.rezayi.nr@gmail.com
+
+TODO: 
+The end of each sentence must be new line
+Add history of search
+BookMark -> add verbs to bookmark
+Example, Part of speech pleaaaaaaaaaaaaase add
