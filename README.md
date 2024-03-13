@@ -12,7 +12,5 @@ Let me know if the project needs modifications or updates
 email: naser.rezayi.nr@gmail.com
 
 TODO: 
-The end of each sentence must be new line
-Add history of search
-BookMark -> add verbs to bookmark
-Example, Part of speech pleaaaaaaaaaaaaase add
+Search history
+build for android res 1920×1080
