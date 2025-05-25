@@ -7,7 +7,6 @@
         <file>phonetics.json</file>
         <file>Icons/searchVista.png</file>
         <file>Icons/search.png</file>
-        <file>ldoe_american.sqlite</file>
     </qresource>
     <qresource prefix="/"/>
 </RCC>
