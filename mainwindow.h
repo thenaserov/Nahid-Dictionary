@@ -11,7 +11,7 @@
 #include <QString>
 #include <QCompleter>
 #include <QAbstractItemView>
-#include <QTextCodec>
+// #include <QTextCodec>
 #include <QLocale>
 #include <QtTextToSpeech/QTextToSpeech>
 #include <QtTextToSpeech/QTextToSpeechPlugin>
@@ -37,7 +37,7 @@ private:
    int _fontSize = 12;
    QString _word;
    QString _wordF;
-   QTextCodec *codec = QTextCodec::codecForName("UTF-8");
+   // QTextCodec *codec = QTextCodec::codecForName("UTF-8");
    QString _ans;
    QString _ansF;
    QTextToSpeech _textToSpeechWord;
