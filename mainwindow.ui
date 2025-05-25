@@ -23,7 +23,7 @@
    <string notr="true"/>
   </property>
   <property name="tabShape">
-   <enum>QTabWidget::Rounded</enum>
+   <enum>QTabWidget::TabShape::Rounded</enum>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="styleSheet">
@@ -38,7 +38,7 @@
        </font>
       </property>
       <property name="layoutDirection">
-       <enum>Qt::LeftToRight</enum>
+       <enum>Qt::LayoutDirection::LeftToRight</enum>
       </property>
       <property name="styleSheet">
        <string notr="true"/>
@@ -47,7 +47,7 @@
        <locale language="English" country="UnitedStates"/>
       </property>
       <property name="tabShape">
-       <enum>QTabWidget::Rounded</enum>
+       <enum>QTabWidget::TabShape::Rounded</enum>
       </property>
       <property name="currentIndex">
        <number>0</number>
@@ -101,10 +101,10 @@
            <string/>
           </property>
           <property name="echoMode">
-           <enum>QLineEdit::Normal</enum>
+           <enum>QLineEdit::EchoMode::Normal</enum>
           </property>
           <property name="cursorMoveStyle">
-           <enum>Qt::LogicalMoveStyle</enum>
+           <enum>Qt::CursorMoveStyle::LogicalMoveStyle</enum>
           </property>
          </widget>
         </item>
@@ -132,10 +132,10 @@
            <string notr="true"/>
           </property>
           <property name="frameShape">
-           <enum>QFrame::StyledPanel</enum>
+           <enum>QFrame::Shape::StyledPanel</enum>
           </property>
           <property name="frameShadow">
-           <enum>QFrame::Sunken</enum>
+           <enum>QFrame::Shadow::Sunken</enum>
           </property>
          </widget>
         </item>
@@ -145,10 +145,10 @@
            <string/>
           </property>
           <property name="orientation">
-           <enum>Qt::Horizontal</enum>
+           <enum>Qt::Orientation::Horizontal</enum>
           </property>
           <property name="tickPosition">
-           <enum>QSlider::TicksBelow</enum>
+           <enum>QSlider::TickPosition::TicksBelow</enum>
           </property>
           <property name="tickInterval">
            <number>1</number>
@@ -183,7 +183,7 @@
               <string>Owner - linguist : Nahid Pourmoazami 👩🏻‍🏫</string>
              </property>
              <property name="alignment">
-              <set>Qt::AlignCenter</set>
+              <set>Qt::AlignmentFlag::AlignCenter</set>
              </property>
             </widget>
            </item>
@@ -198,7 +198,7 @@
               <string>Developer : Naser Rezayi 👨🏻‍💻</string>
              </property>
              <property name="alignment">
-              <set>Qt::AlignCenter</set>
+              <set>Qt::AlignmentFlag::AlignCenter</set>
              </property>
             </widget>
            </item>
@@ -213,7 +213,7 @@
               <string>since 2020</string>
              </property>
              <property name="alignment">
-              <set>Qt::AlignCenter</set>
+              <set>Qt::AlignmentFlag::AlignCenter</set>
              </property>
             </widget>
            </item>
@@ -223,7 +223,7 @@
         <item row="0" column="1">
          <spacer name="verticalSpacer_2">
           <property name="orientation">
-           <enum>Qt::Vertical</enum>
+           <enum>Qt::Orientation::Vertical</enum>
           </property>
           <property name="sizeHint" stdset="0">
            <size>
@@ -236,7 +236,7 @@
         <item row="1" column="0">
          <spacer name="horizontalSpacer">
           <property name="orientation">
-           <enum>Qt::Horizontal</enum>
+           <enum>Qt::Orientation::Horizontal</enum>
           </property>
           <property name="sizeHint" stdset="0">
            <size>
@@ -249,7 +249,7 @@
         <item row="1" column="2">
          <spacer name="horizontalSpacer_2">
           <property name="orientation">
-           <enum>Qt::Horizontal</enum>
+           <enum>Qt::Orientation::Horizontal</enum>
           </property>
           <property name="sizeHint" stdset="0">
            <size>
@@ -262,7 +262,7 @@
         <item row="2" column="1">
          <spacer name="verticalSpacer">
           <property name="orientation">
-           <enum>Qt::Vertical</enum>
+           <enum>Qt::Orientation::Vertical</enum>
           </property>
           <property name="sizeHint" stdset="0">
            <size>
@@ -284,7 +284,7 @@
      <x>0</x>
      <y>0</y>
      <width>520</width>
-     <height>22</height>
+     <height>38</height>
     </rect>
    </property>
   </widget>

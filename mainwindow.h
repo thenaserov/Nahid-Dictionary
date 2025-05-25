@@ -46,14 +46,11 @@ private:
 public slots:
    void on_pbSearch_clicked();
    void search();
-   void searchF();
    void resize(int value);
 
 private slots:
    void on_horizontalSlider_valueChanged(int value);
    void on_pbPronounce_clicked();
-   void on_pbSearchFarsi_clicked();
-
    void on_leEnglish_returnPressed();
 
 signals:
