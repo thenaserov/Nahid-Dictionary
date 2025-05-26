@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>520</width>
+    <width>443</width>
     <height>688</height>
    </rect>
   </property>
@@ -65,16 +65,23 @@
        <layout class="QGridLayout" name="gridLayout">
         <item row="0" column="0">
          <widget class="QPushButton" name="pbSearch">
+          <property name="minimumSize">
+           <size>
+            <width>50</width>
+            <height>30</height>
+           </size>
+          </property>
           <property name="font">
            <font>
-            <pointsize>10</pointsize>
+            <pointsize>14</pointsize>
            </font>
           </property>
           <property name="mouseTracking">
            <bool>false</bool>
           </property>
           <property name="styleSheet">
-           <string notr="true"/>
+           <string notr="true">border-radius:10px;
+background-color:grey;</string>
           </property>
           <property name="text">
            <string>search</string>
@@ -86,9 +93,15 @@
         </item>
         <item row="0" column="1">
          <widget class="QLineEdit" name="leEnglish">
+          <property name="minimumSize">
+           <size>
+            <width>40</width>
+            <height>30</height>
+           </size>
+          </property>
           <property name="font">
            <font>
-            <pointsize>10</pointsize>
+            <pointsize>14</pointsize>
            </font>
           </property>
           <property name="styleSheet">
@@ -110,10 +123,20 @@
         </item>
         <item row="0" column="2">
          <widget class="QPushButton" name="pbPronounce">
+          <property name="minimumSize">
+           <size>
+            <width>50</width>
+            <height>30</height>
+           </size>
+          </property>
           <property name="font">
            <font>
-            <pointsize>10</pointsize>
+            <pointsize>14</pointsize>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-radius:10px;
+background-color:grey;</string>
           </property>
           <property name="text">
            <string>say</string>
@@ -124,7 +147,7 @@
          <widget class="QTextBrowser" name="textBrowser">
           <property name="font">
            <font>
-            <pointsize>12</pointsize>
+            <pointsize>14</pointsize>
             <italic>false</italic>
            </font>
           </property>
@@ -175,7 +198,7 @@
             <widget class="QLabel" name="label">
              <property name="font">
               <font>
-               <pointsize>10</pointsize>
+               <pointsize>14</pointsize>
                <stylestrategy>PreferAntialias</stylestrategy>
               </font>
              </property>
@@ -191,7 +214,7 @@
             <widget class="QLabel" name="label_2">
              <property name="font">
               <font>
-               <pointsize>10</pointsize>
+               <pointsize>14</pointsize>
               </font>
              </property>
              <property name="text">
@@ -206,7 +229,7 @@
             <widget class="QLabel" name="label_3">
              <property name="font">
               <font>
-               <pointsize>10</pointsize>
+               <pointsize>14</pointsize>
               </font>
              </property>
              <property name="text">
@@ -283,7 +306,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>520</width>
+     <width>443</width>
      <height>38</height>
     </rect>
    </property>
