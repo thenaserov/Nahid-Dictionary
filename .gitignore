@@ -1,3 +1,4 @@
 Dictionary.pro.user*
 *.user*
 build*
+.DS_Store
