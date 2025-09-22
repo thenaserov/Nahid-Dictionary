@@ -97,7 +97,8 @@ void MainWindow::resize(int value)
 
 void MainWindow::on_pbSearch_clicked()
 {
-   search();
+    if (ui->leEnglish->text() != "")
+        search();
 }
 
 void MainWindow::on_horizontalSlider_valueChanged(int value)
