@@ -34,7 +34,7 @@
      <widget class="QTabWidget" name="tabWidget">
       <property name="font">
        <font>
-        <pointsize>10</pointsize>
+        <pointsize>16</pointsize>
        </font>
       </property>
       <property name="layoutDirection">
@@ -73,7 +73,7 @@
           </property>
           <property name="font">
            <font>
-            <pointsize>14</pointsize>
+            <pointsize>18</pointsize>
            </font>
           </property>
           <property name="mouseTracking">
@@ -131,7 +131,7 @@ background-color:grey;</string>
           </property>
           <property name="font">
            <font>
-            <pointsize>14</pointsize>
+            <pointsize>18</pointsize>
            </font>
           </property>
           <property name="styleSheet">
@@ -203,7 +203,7 @@ background-color:grey;</string>
               </font>
              </property>
              <property name="text">
-              <string>Owner - linguist : Nahid Pourmoazami 👩🏻‍🏫</string>
+              <string>Linguist : Nahid Pourmoazami 👩🏻‍🏫</string>
              </property>
              <property name="alignment">
               <set>Qt::AlignmentFlag::AlignCenter</set>
@@ -307,7 +307,7 @@ background-color:grey;</string>
      <x>0</x>
      <y>0</y>
      <width>443</width>
-     <height>38</height>
+     <height>34</height>
     </rect>
    </property>
   </widget>
